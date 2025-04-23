@@ -1,0 +1,36 @@
+.zoom-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.zoom-control-btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    padding: 0;
+}
+
+.zoom-control-btn span {
+    display: inline-block;
+    transform: translateY(-3px);
+}
+
+.zoom-control-btn:hover {
+    background-color: #666;
+}
+
+.zoom-icon-wrapper svg {
+    stroke: white;
+    align-items: center;
+}

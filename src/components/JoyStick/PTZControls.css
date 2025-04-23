@@ -1,0 +1,18 @@
+.ptz-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ptz-joystick-area {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.ptz-switch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}

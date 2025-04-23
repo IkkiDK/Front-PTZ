@@ -1,0 +1,31 @@
+.home-icon-button {
+    background-color: #444;
+    border-radius: 50%;
+    border: transparent;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.home-icon-button:active{
+    box-shadow: 0 0 50px rgba(12, 72, 139, 0.8);
+    border: 2px solid #0974f1;
+    padding: 13px;
+}
+.home-icon-button:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.home-icon-button:hover {
+    background-color: #666;
+}
+.icon-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
